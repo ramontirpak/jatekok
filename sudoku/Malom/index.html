@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Malom</title>
+</head>
+<body>
+    <div class="header">
+        <div class="column"style="font-weight: bold;"><span id="p1name">Fekete</span>(Fekete)</div>
+        <div class="column" style="text-align: center; font-weight: bold;">Következik: <span id="turn"></span></div>
+        <div class="column" style="text-align: right; font-weight: bold;"><span id="p2name">Fehér</span>(Fehér)</div>
+    </div>
+    <button style="position: relative; top: 80px;" onclick="location.href = 'jatekszabaly.html';" id="myButton">Játékszabályok</button>
+    <div id="myCanvas">
+        <div class="place" id="a7"></div>
+        <div class="place" id="d7"></div>
+        <div class="place" id="g7"></div>
+        <div class="place" id="b6"></div>
+        <div class="place" id="d6"></div>
+        <div class="place" id="f6"></div>
+        <div class="place" id="c5"></div>
+        <div class="place" id="d5"></div>
+        <div class="place" id="e5"></div>
+        <div class="place" id="a4"></div>
+        <div class="place" id="b4"></div>
+        <div class="place" id="c4"></div>
+        <div class="place" id="e4"></div>
+        <div class="place" id="f4"></div>
+        <div class="place" id="g4"></div>
+        <div class="place" id="c3"></div>
+        <div class="place" id="d3"></div>
+        <div class="place" id="e3"></div>
+        <div class="place" id="b2"></div>
+        <div class="place" id="d2"></div>
+        <div class="place" id="f2"></div>
+        <div class="place" id="a1"></div>
+        <div class="place" id="d1"></div>
+        <div class="place" id="g1"></div>
+    </div>
+    <button onclick="restart()">Újrakezdés</button>
+<script src="script.js"></script>
+</body>
+</html>
